@@ -51,6 +51,10 @@ find_package(catkin REQUIRED COMPONENTS
  add_message_files(
    FILES
    ExoJointPos.msg
+   ExoJointVel.msg
+   ExoJointTorque.msg
+   ExoJointCmd.msg
+   ExoJointState.msg
   )
 
 ## Generate services in the 'srv' folder
